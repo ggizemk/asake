@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+}
+
+.logo span {
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  padding: 0;
+}
+.nav-link {
+  list-style-type: none;
+  border: 5px solid;
+  margin: 0px 40px;
+}
+
+.nav-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.nav-btn {
+  background-color: blueviolet;
+  padding: 8px 16px;
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  background-color: black;
+  color: black;
+}
+.hero {
+  display: flex;
+}
+
+.image-box {
+  width: 60%;
+}
+.image-box img {
+  height: 1000px;
+  object-fit: cover;
+  object-position: unset;
+}
+.video-box {
+  width: 50%;
+  height: 500px;
+  background-color: rgb(255, 183, 183);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** Latest songs section style */
+.song-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 5px red;
+}
+
+.song-card {
+  margin: 20px;
+
+  /*border: 1px solid black;*/
+  width: fit-content;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 2px;
+}
+.song-card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.song-link {
+  text-decoration: none;
+}
+
+.song-name,
+.artist {
+  display: block;
+}
+.song-name {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin: 8px 0px;
+}
+.artist {
+  font-size: 14px;
+  color: #444444;
+}
